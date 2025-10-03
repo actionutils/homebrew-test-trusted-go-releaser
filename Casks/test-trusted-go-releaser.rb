@@ -3,7 +3,7 @@ cask "test-trusted-go-releaser" do
   name "test-trusted-go-releaser"
   desc ""
   homepage "https://github.com/actionutils/test-trusted-go-releaser"
-  version "0.0.55"
+  version "0.0.56"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,14 +14,14 @@ cask "test-trusted-go-releaser" do
   on_macos do
     on_arm do
       url "https://github.com/actionutils/test-trusted-go-releaser/releases/download/v#{version}/test-trusted-go-releaser_#{version}_darwin_arm64.tar.gz"
-      sha256 "cb91234d136a96aadad0dba2c5d5f2ba80a22171bc6aef44e26c1cde12e82614"
+      sha256 "97a5b92bb280d02c937214ad8d6b6f0432be7f06da1c5672031b5d12c7217aff"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/actionutils/test-trusted-go-releaser/releases/download/v#{version}/test-trusted-go-releaser_#{version}_linux_arm64.tar.gz"
-      sha256 "248b37fe809312def0400639d71ea59598a4495cdfe3ede627826610d340548a"
+      sha256 "9ae4c60326bde6feee600ec2002861ce9e13598edc276c8d2566e4f6ede9642c"
     end
   end
 
